@@ -15,4 +15,14 @@ const Login = () => {
     </div>
   );
 };
+
+
+
+
+
+const handleLogin = (e) => {
+  e.preventDefault();
+  alert("Login successful! Welcome to MentorX.");
+};
+
 export default Login;
