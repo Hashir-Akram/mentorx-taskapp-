@@ -12,6 +12,14 @@ const Login = () => {
         color:"white", border:"none", borderRadius:"6px", cursor:"pointer" }}>
         Login
       </button>
+
+
+      // Add inside Login.jsx after the button:
+        // <p style={{textAlign:"center"}}>
+        //   <a href="#">Forgot password?</a>
+        // </p>
+
+
     </div>
   );
 };
